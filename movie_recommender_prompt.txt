@@ -1,0 +1,142 @@
+
+
+# **Product Requirements Document (PRD)**
+
+## **Movie Recommendation System Using Machine Learning & React JS**
+
+---
+
+## **1. Product Name**
+
+**Movie Recommendation System Using Machine Learning & React JS**
+
+---
+
+## **2. Overview**
+
+The Movie Recommendation System is a web-based application that allows users to enter a movie name and receive a list of similar movie recommendations. The system uses machine learning techniques to analyze movie features and similarities, providing personalized and relevant recommendations without requiring internet connectivity.
+
+This project demonstrates the practical use of **machine learning**, **data processing**, and **modern frontend development** using React JS.
+
+---
+
+## **3. Objectives**
+
+* Provide accurate movie recommendations based on user input
+* Implement a lightweight and fast ML-based recommendation engine
+* Build a responsive and user-friendly UI
+* Operate fully offline after setup
+* Demonstrate ML + frontend integration for learning and portfolio use
+
+---
+
+## **4. Key Features**
+
+* 🎥 Movie search by name
+* 🤖 Machine learning–based similarity matching
+* 📊 Content-based recommendation system
+* ⚡ Fast recommendations with preprocessed data
+* 💻 Fully offline web application
+* 🎨 Clean, responsive UI with animations
+
+---
+
+## **5. User Flow**
+
+1. User opens the web application
+2. User enters a movie name in the search box
+3. System validates the input
+4. ML model processes the input movie
+5. System recommends a list of similar movies
+6. Results are displayed with smooth UI animations
+
+---
+
+## **6. Functional Requirements**
+
+### 6.1 Movie Input
+
+* Text input field for movie name
+* Auto-suggestion or validation for invalid movie names
+
+### 6.2 Recommendation Engine
+
+* Content-based filtering using movie metadata
+* Similarity calculation using ML algorithms (e.g., cosine similarity)
+* Pre-trained model loaded locally
+
+### 6.3 Recommendation Output
+
+* Display recommended movies as a list or cards
+* Show movie title (optional: genre, rating)
+
+### 6.4 Offline Support
+
+* Dataset and ML model stored locally
+* No external API dependency
+
+---
+
+## **7. Non-Functional Requirements**
+
+* Fast response time (<1 second per recommendation)
+* Responsive design for mobile, tablet, and desktop
+* Clean UI with smooth transitions
+* Maintainable and modular code structure
+
+---
+
+## **8. Tech Stack**
+
+### Frontend
+
+* **Framework:** React JS
+* **Styling:** Tailwind CSS
+* **Animations:** Framer Motion
+
+### Machine Learning
+
+* **Language:** Python
+* **Libraries:**
+
+  * NumPy
+  * Pandas
+  * Scikit-learn
+
+### Platform
+
+* **Web Application**
+* **App Type:** Offline
+
+### Backend
+
+* **No backend server**
+* ML model and processed data integrated directly with frontend output
+
+---
+
+## **9. Machine Learning Approach**
+
+* **Recommendation Type:** Content-Based Filtering
+* **Data Used:** Movie titles, genres, descriptions, keywords
+* **Model:** Similarity-based model using vectorization techniques
+* **Algorithm:** Cosine Similarity / TF-IDF
+
+---
+
+## **10. UI/UX Requirements**
+
+* Minimal and modern layout
+* Clear search bar at the center
+* Smooth animations for results
+* Error message for invalid input
+* Dark/light theme (optional)
+
+---
+
+## **11. Constraints**
+
+* Works only with movies present in the dataset
+* No real-time updates
+* Limited to offline dataset size
+
